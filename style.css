@@ -131,10 +131,11 @@ button:active {
   }
 
   .mobile-img {
-    height: 150px;
-    width: 150px;
-    border: solid whitesmoke 5px;
-    border-radius: 100%;
+    max-width: 12rem;
+    max-height: 12rem;
+    /* border: 0.3rem solid #e1e7ece0; */
+     border-radius: 20%;
+    opacity: default;
   }
 
   .mobile-name {
